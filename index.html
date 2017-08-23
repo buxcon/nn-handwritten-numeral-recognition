@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width ,height=device-height ,initial-scale=1.0 ,minimum-scale=1.0 ,maximum-scale=1.0 ,user-scalable=no">
+    <title>手写数字识别 - WEAINE</title>
+    <link rel="stylesheet" href="handwriting.css">
+</head>
+<body>
+<canvas id="canvas">
+    您的浏览器不支持canvas
+</canvas>
+<div id="controller">
+    <div id="send_btn" class="op_btn">识别</div>
+    <div id="clear_btn" class="op_btn">清除</div>
+    <div class="clearfix"></div>
+</div>
+<p id="loading" class="tips">识别中…</p>
+<p id="result_holder" class="tips">识别结果：<span id="result"></span></p>
+<script src="jquery-1.12.0.js"></script>
+<script src="handwriting.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+#canvas {
+    display: inline;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.op_btn {
+    float: right;
+    margin: 10px 0 0 10px;
+    border: 2px solid #aaa;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+    font-family: Microsoft YaHei, Arial;
+}
+
+.tips {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Microsoft YaHei,Arial;
+    display: none;
+}
+
+.opt_btn:hover {
+    background-color: #DEF;
+}
+.clearfix {
+    clear: both;
+}
